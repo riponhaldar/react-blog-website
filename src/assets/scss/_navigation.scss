@@ -1,0 +1,55 @@
+@import './_variables';
+
+.btn {
+  background: rgba(34, 34, 34, 0.548);
+  // height: 0px;
+  min-width: 100px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 40px;
+  font-family: 'Cookie', cursive;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.site-navigation {
+  // color: red;
+  width: 100%;
+  background: rgb(238, 238, 238);
+  display: flex;
+  // height: 65px;
+  padding: 10px 30px;
+  // padding-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  color: $text-color;
+  span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+    li {
+      text-decoration: none;
+      padding-right: 50px;
+      text-align: center;
+      color: $text-color;
+      align-items: center;
+      a {
+        text-decoration: none;
+        // color: $text-color;
+        color: rgb(95, 95, 95);
+        // color: #eee;
+        padding: 0 10px 0 10px;
+      }
+    }
+  }
+}
